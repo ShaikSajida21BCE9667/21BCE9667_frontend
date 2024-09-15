@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(244, 244, 244);
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Adjust the gap between elements */
+   
+}
+
+h1 {
+    margin: 0;
+    margin-left:50px;
+    margin-right:30px;
+}
+
+input[type="text"] {
+    padding: 17px;
+    width: 600px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+.header button {
+    padding: 14px 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+#searchBtn {
+    background-color: rgba(46, 46, 225, 0.832); /* Blue color for the search button */
+    text-decoration: solid;
+    border: none;
+    
+    color: white;
+}
+
+#applyBtn {
+    background-color: rgb(255, 145, 0); /* Orange color for the apply for trademark button */
+    color: white;
+    border:none;
+}
+#searchBtn:hover {
+    background-color: darkblue; /* Dark blue color on hover */
+}
+#applyBtn:hover {
+    background-color: #c3833e; /* Brown orange color on hover */
+}
+
+.headerdown {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adjust the gap between elements as needed */
+    flex-wrap: wrap; /* Allows wrapping if there's not enough space */
+    font-size: x-small;
+}
+
+.headerdown h2 {
+    margin:40px 20px 0 0;
+    padding: 0 ;
+    cursor: pointer;
+    color: rgb(122, 120, 120); /* Default color for headings */
+}
+.headerdown h2:active {
+    color: blue; /* Color changes to blue when clicked */
+}
+
+.headerborder {
+    border-top: 1px solid rgb(106, 105, 105); /* Line above */
+    border-bottom: 1px solid rgb(71, 70, 70) ; /* Line below */
+    padding: 20px 40px 20px 50px; /* Adds space between the lines and the text */
+   /* text-align: center; /* Optional: Center-align the text */
+   font-size: small;
+   color:rgb(122, 120, 120);
+   text-decoration: bold;
+   background-color: white;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.headerborder h2 {
+    margin: 0; /* Removes default margin to avoid extra spacing */
+}
+
+.afterheaderborder{
+    font-size: small;
+}
+.afterheaderborder button{
+    border-radius: 9px ;
+    padding: 6px 6px 6px 6px;
+    font-size: small;
+    margin-left: 5px;
+    margin-right: 2px;
+    background-color: #ede0d1;
+    border:1px solid salmon;
+    margin-top: 3px;
+}
+
+.bodyheading1{
+    display:flex;
+    align-items: center;
+    gap:170px;
+    font-size: small;
+    margin-left: 50px;
+    border-bottom: 1px solid grey;
+    margin-right:500px;
+   
+   
+}
+.bodyheading1 h2{
+    margin-top:2px;
+    color:rgb(63, 62, 62);
+    font-family:serif ;
+    font-display:Georgia, serif;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    gap:50px;
+    margin-left:40px;
+    margin-top: 0px;
+    margin-right: 50px;
+}
+.container h2{
+
+    margin-right: 80px;
+    font-size: medium;
+   
+}
+
+#box {
+    border: 1px solid #ecebeb; /* Adds a black border around the heading */
+    padding: 40px; /* Adds space between the text and the border */
+    display: inline-block; /* Ensures the box wraps around the heading text */
+    background-color: #f0f0f0; /* Optional: Adds a background color */
+    border-radius: 5px; /* Optional: Rounds the corners of the border */
+  }
+  
+.container p{
+     font-size: small;
+     color: rgb(189, 184, 184);
+}  
+
+.container:hover{
+    background-color: rgb(209, 205, 205);
+    margin-right:50px;
+}
+  
